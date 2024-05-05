@@ -10,8 +10,8 @@ const Navbar = ({ scrolling }) => {
   return (
     <header
       className={`${
-        scrolling ? "border-b border-gray-900" : ""
-      }  fixed left-0 right-5 top-0 z-20 `}
+        scrolling ? "border-b border-gray-800" : ""
+      }  fixed left-4 right-4 top-0 z-20 `}
       id="home"
     >
       <div className="container m-auto  py-6 max-w-7xl bg-black">
