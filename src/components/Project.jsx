@@ -27,7 +27,7 @@ const Project = () => {
     {
       img: Project4,
       name: "ContactBook",
-      intro: "A simple contact adder webpage using React JS",
+      intro: "A simple local storage contact adder webpage using React JS",
       gitlink: "https://github.com/Usman-99/ContactBook",
     },
   ];
