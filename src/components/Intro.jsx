@@ -5,19 +5,19 @@ const Intro = () => {
     <section>
       <div className="container m-auto pt-12 pb-12 px-4 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left">
         <div>
-          <h2 className="font-bold text-5xl">Hello, I'm Usman,</h2>
+          <h2 className="font-bold text-4xl">Hello, I'm Usman,</h2>
           <div>
             <h2 className="font-bold text-4xl mt-1 gradiant-text">
               Frontend Developer
             </h2>
           </div>
           <div>
-            <p className="mb-7 mt-7 text-2xl text-white-400">
+            <p className="mb-7 mt-7 text-2xl text-white-300">
               Skilled in React.js, adept at crafting engaging user interfaces
               through innovative design and clean code practices.
             </p>
             <a href={Resume} download="Usman's Resume">
-              <button className="text-2xl px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+              <button className="text-xl px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                 Download Resume
               </button>
             </a>
