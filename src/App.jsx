@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import Tech from "./components/Tech";
 import About from "./components/About";
 import Footer from "./components/Footer";
+
 function App() {
   const [scrolling, setScrolling] = useState(false);
 
@@ -25,9 +26,9 @@ function App() {
   }, []);
 
   return (
-    <div className="max-w-6xl m-auto relative">
+    <div className="max-w-4xl m-auto relative">
       <Navbar scrolling={scrolling} />
-      <main className="relative mt-28 mb-10">
+      <main className="relative mt-28 mb-10 left-4 right-0">
         <Intro />
         <Project />
         <Tech />
