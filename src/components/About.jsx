@@ -17,7 +17,11 @@ const About = () => {
     },
     {
       year: "2023",
-      para: "I completed a web development internship at the Karachi Development Authority (KDA), where I gained hands-on experience in understanding server architecture and its functionalities. During this internship, I had the opportunity to delve into the complexities of database management systems and witnessed firsthand how a government organization efficiently manages city property details through systematic database management.",
+      para: "I have done internship at the Karachi Development Authority (KDA), where I gained hands-on experience in understanding server architecture and its functionalities. During this internship, I had the opportunity to delve into the complexities of database management systems and witnessed firsthand how a government organization efficiently manages city property details through systematic database management.",
+    },
+    {
+      year: "2024",
+      para: "I graduated with a Bachelor of Engineering in Computer and Information Systems Engineering from NED University",
     },
   ];
   return (
