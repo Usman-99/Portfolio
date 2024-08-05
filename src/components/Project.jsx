@@ -3,32 +3,49 @@ import Project1 from "../assets/capture.png";
 import Project2 from "../assets/capture1.png";
 import Project3 from "../assets/capture2.png";
 import Project4 from "../assets/capture3.png";
-
+import Project5 from "../assets/capture4.png";
 const Project = () => {
   const projects = [
     {
       img: Project1,
       name: "Fithub",
-      intro: "An Ecommerce Fitness Website using React JS",
+      intro:
+        "I created an eCommerce fitness website using React, leveraging useContext and useReducer for state management",
       gitlink: "https://github.com/Usman-99/Fithub",
-    },
-    {
-      img: Project2,
-      name: "Lensmart",
-      intro: "A Frontend Glasses Website Store using React JS",
-      gitlink: "https://github.com/Usman-99/Lensmart-React-Version",
+      dlink: "https://fithubstore.netlify.app/",
     },
     {
       img: Project3,
       name: "MovieLand",
-      intro: "A Website where you can search any movies using React JS and API",
+      intro:
+        "I developed a React-based movie project that fetches and displays movie data using Axios to make GET requests to an API",
       gitlink: "https://github.com/Usman-99/Movie-Search-Website",
+      dlink: "https://usman-99.github.io/Movie-Search-Website/",
     },
     {
       img: Project4,
       name: "ContactBook",
-      intro: "A simple local storage contact adder webpage using React JS",
+      intro:
+        "I created a React contact adder website that allows users to add and view contacts, with data stored in local storage for persistence.",
       gitlink: "https://github.com/Usman-99/ContactBook",
+      dlink: "https://contactadder.netlify.app/",
+    },
+    {
+      img: Project5,
+      name: "Redux Todolist",
+      intro:
+        "I Created a to-do list application using Redux Toolkit to learn and demonstrate how Redux works, like creating slices and managing the store",
+      gitlink:
+        "https://github.com/Usman-99/TodoList-Created-Using-Redux-Toolkit",
+      dlink: "https://todolistwithreduxtoolkit.netlify.app/",
+    },
+    {
+      img: Project2,
+      name: "Lensmart",
+      intro:
+        "I build a beginner React user interface project to learn hooks and understand single-page routing",
+      gitlink: "https://github.com/Usman-99/Lensmart-reactversion",
+      dlink: "https://lensmart99.netlify.app/",
     },
   ];
   return (
@@ -47,16 +64,21 @@ const Project = () => {
               <img src={item.img} className="w-full h-auto" alt={item.name} />
               <h3 className="text-2xl font-semibold mt-8">{item.name}</h3>
               <p className="text-gray-300 text-md mt-2">{item.intro}</p>
-              <a href={item.gitlink}>
-                <div className="content-center flex mt-12 gap-2">
-                  <button className="flex-1 font-semibold text-md py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Checkout Github
-                  </button>
-                  {/* <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Live Preview
-                  </button> */}
-                </div>
-              </a>
+
+              <div className="content-center flex mt-12 gap-2">
+                <a
+                  href={item.gitlink}
+                  className="text-center flex-1 font-semibold text-md py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700"
+                >
+                  Link to Code
+                </a>
+                <a
+                  href={item.dlink}
+                  className="text-center flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500"
+                >
+                  Live Preview
+                </a>
+              </div>
             </div>
           ))}
         </div>
