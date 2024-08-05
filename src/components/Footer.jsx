@@ -9,7 +9,7 @@ const Footer = ({ scrolling }) => {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
+            <p className="text-gray-300 text-sm">Copyright @ 2024</p>
           </div>
           <div className="mx-4">
             <ul className="flex gap-4">
@@ -24,7 +24,7 @@ const Footer = ({ scrolling }) => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Usman-99?tab=repositories">
+                <a href="https://github.com/Usman-99">
                   <FaGithub size={25} />
                 </a>
               </li>
