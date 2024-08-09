@@ -44,7 +44,7 @@ const Project = () => {
       img: Project5,
       name: "Redux Todolist",
       intro:
-        "I Created a to-do list application using Redux Toolkit to learn and demonstrate how Redux works, like creating slices and managing the store",
+        "I Created a to-do list application using Redux Toolkit to learn and demonstrate how Redux works, like creating slices, managing the store and efficient handling of actions and reducers in React",
       gitlink:
         "https://github.com/Usman-99/TodoList-Created-Using-Redux-Toolkit",
       dlink: "https://todolistwithreduxtoolkit.netlify.app/",
