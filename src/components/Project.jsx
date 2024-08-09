@@ -4,6 +4,8 @@ import Project2 from "../assets/capture1.png";
 import Project3 from "../assets/capture2.png";
 import Project4 from "../assets/capture3.png";
 import Project5 from "../assets/capture4.png";
+import Project6 from "./assets/capture5.png";
+import Project7 from "./assets/capture6.png";
 const Project = () => {
   const projects = [
     {
@@ -13,6 +15,14 @@ const Project = () => {
         "I created an eCommerce fitness website using React, leveraging useContext and useReducer for state management",
       gitlink: "https://github.com/Usman-99/Fithub",
       dlink: "https://fithubstore.netlify.app/",
+    },
+    {
+      img: Project7,
+      name: "ReduxStore",
+      intro:
+        "E-commerce application that uses Redux Toolkit and createAsyncThunk to manage state and handle asynchronous API calls for fetching products",
+      gitlink: "https://github.com/Usman-99/CartWithRedux",
+      dlink: "https://usmanreduxstore.netlify.app/",
     },
     {
       img: Project3,
@@ -35,6 +45,15 @@ const Project = () => {
       name: "Redux Todolist",
       intro:
         "I Created a to-do list application using Redux Toolkit to learn and demonstrate how Redux works, like creating slices and managing the store",
+      gitlink:
+        "https://github.com/Usman-99/TodoList-Created-Using-Redux-Toolkit",
+      dlink: "https://todolistwithreduxtoolkit.netlify.app/",
+    },
+    {
+      img: Project6,
+      name: "Interview EQ Analyzer",
+      intro:
+        "Our FYP project, EQ Analyzer, is designed to assess and predict the emotional intelligence of individuals through audio analysis. I have developed the frontend of this project using React",
       gitlink:
         "https://github.com/Usman-99/TodoList-Created-Using-Redux-Toolkit",
       dlink: "https://todolistwithreduxtoolkit.netlify.app/",
