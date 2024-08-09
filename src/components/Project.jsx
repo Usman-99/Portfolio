@@ -4,8 +4,8 @@ import Project2 from "../assets/capture1.png";
 import Project3 from "../assets/capture2.png";
 import Project4 from "../assets/capture3.png";
 import Project5 from "../assets/capture4.png";
-import Project6 from "./assets/capture5.png";
-import Project7 from "./assets/capture6.png";
+import Project6 from "../assets/capture5.png";
+import Project7 from "../assets/capture6.png";
 const Project = () => {
   const projects = [
     {
