@@ -21,7 +21,7 @@ const About = () => {
     },
     {
       year: "2024",
-      para: "I graduated with a Bachelor of Engineering in Computer and Information Systems Engineering from NED University",
+      para: "I graduated with a Bachelor of Engineering in Computer and Information Systems Engineering from NED University with CGPA of 3.564",
     },
   ];
   return (
