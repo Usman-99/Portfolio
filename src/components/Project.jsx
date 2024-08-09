@@ -54,9 +54,8 @@ const Project = () => {
       name: "Interview EQ Analyzer",
       intro:
         "Our FYP project, EQ Analyzer, is designed to assess and predict the emotional intelligence of individuals through audio analysis. I have developed the frontend of this project using React",
-      gitlink:
-        "https://github.com/Usman-99/TodoList-Created-Using-Redux-Toolkit",
-      dlink: "https://todolistwithreduxtoolkit.netlify.app/",
+      gitlink: "https://github.com/Usman-99/EQ-Analyzer",
+      dlink: "https://eqanalyzerusmanfyp.netlify.app/",
     },
     {
       img: Project2,
