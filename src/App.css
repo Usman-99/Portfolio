@@ -12,7 +12,7 @@ body {
     @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
     overflow: hidden;
     border-right: 2px solid #fff;
-    animation: typing-text steps(40) 3s infinite, blink ease 0.3s infinite;
+    animation: typing-text steps(50) 4s infinite, blink ease 0.4s infinite;
     text-wrap: nowrap;
     display: inline-block;
     width: max-content;
