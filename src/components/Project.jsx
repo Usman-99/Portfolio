@@ -95,12 +95,14 @@ const Project = () => {
               <div className="content-center flex mt-12 gap-2">
                 <a
                   href={item.gitlink}
+                  target="_blank"
                   className="text-center flex-1 font-semibold text-md py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700"
                 >
                   Link to Code
                 </a>
                 <a
                   href={item.dlink}
+                  target="_blank"
                   className="text-center flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500"
                 >
                   Live Preview
