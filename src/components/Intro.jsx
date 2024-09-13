@@ -16,7 +16,7 @@ const Intro = () => {
               Skilled in React.js, adept at crafting engaging user interfaces
               through innovative design and clean code practices.
             </p>
-            <a href={Resume} download="Usman's Resume">
+            <a href={Resume} target="_blank">
               <button className="text-xl px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                 Download Resume
               </button>
