@@ -14,17 +14,29 @@ const Footer = ({ scrolling }) => {
           <div className="mx-4">
             <ul className="flex gap-4">
               <li>
-                <a href="mailto:usmanyousuf1137@gmail.com">
+                <a
+                  href="mailto:usmanyousuf1137@gmail.com"
+                  target="_blank"
+                  className="hover:text-red-300 transition duration-300"
+                >
                   <SiGmail size={25} />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/muhammadusmanyousuf/">
+                <a
+                  href="https://www.linkedin.com/in/muhammadusmanyousuf/"
+                  className="hover:text-blue-500 transition duration-300"
+                  target="_blank"
+                >
                   <FaLinkedin size={25} />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Usman-99">
+                <a
+                  href="https://github.com/Usman-99"
+                  target="_blank"
+                  className="hover:text-slate-300 transition duration-30"
+                >
                   <FaGithub size={25} />
                 </a>
               </li>

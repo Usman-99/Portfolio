@@ -3,16 +3,21 @@ import React from "react";
 const Tech = () => {
   const techs = [
     { name: "HTML", len: "95%" },
-    { name: "CSS & Bootstrap", len: "80%" },
+    { name: "CSS", len: "80%" },
     { name: "Javascript", len: "78%" },
     { name: "React JS", len: "88%" },
-    { name: "Redux", len: "82%" },
+    { name: "Next JS", len: "75%" },
+    { name: "Redux", len: "88%" },
+    { name: "TypeScript", len: "89%" },
+    { name: "Git and Github", len: "90%" },
     { name: "SQL", len: "74%" },
+    { name: "MongoDB", len: "74%" },
     { name: "Python", len: "77%" },
   ];
   const addtechs = [
-    "Git",
+    "Bootstrap",
     "Tailwind CSS",
+    "Postman",
     "Multitasking",
     "Creative Problem Solving",
     "Teamwork",

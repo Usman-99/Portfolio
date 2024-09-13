@@ -6,13 +6,14 @@ import Project4 from "../assets/capture3.png";
 import Project5 from "../assets/capture4.png";
 import Project6 from "../assets/capture5.png";
 import Project7 from "../assets/capture6.png";
+import Project8 from "../assets/capture7.png";
 const Project = () => {
   const projects = [
     {
       img: Project1,
       name: "Fithub",
       intro:
-        "I created an eCommerce fitness website using React, leveraging useContext and useReducer for state management",
+        "Created an eCommerce fitness website using React, leveraging useContext and useReducer for state management",
       gitlink: "https://github.com/Usman-99/Fithub",
       dlink: "https://fithubstore.netlify.app/",
     },
@@ -28,15 +29,23 @@ const Project = () => {
       img: Project3,
       name: "MovieLand",
       intro:
-        "I developed a React-based movie project that fetches and displays movie data using Axios to make GET requests to an API",
+        "Developed a React-based movie project that fetches and displays movie data using Axios to make GET requests to an API",
       gitlink: "https://github.com/Usman-99/Movie-Search-Website",
       dlink: "https://usman-99.github.io/Movie-Search-Website/",
+    },
+    {
+      img: Project8,
+      name: "Personal Website",
+      intro:
+        "This portfolio is a responsive React application, featuring Framer Motion animations and Tailwind CSS styling. It showcases a modern, gradient design with sections for projects, skills, and experience.",
+      gitlink: "https://github.com/Usman-99/New-Portfolio",
+      dlink: "https://usmanportfolio99.netlify.app/",
     },
     {
       img: Project4,
       name: "ContactBook",
       intro:
-        "I created a React contact adder website that allows users to add and view contacts, with data stored in local storage for persistence.",
+        "Created a React contact adder website that allows users to add and view contacts, with data stored in local storage for persistence.",
       gitlink: "https://github.com/Usman-99/ContactBook",
       dlink: "https://contactadder.netlify.app/",
     },
@@ -44,7 +53,7 @@ const Project = () => {
       img: Project5,
       name: "Redux Todolist",
       intro:
-        "I Created a to-do list application using Redux Toolkit to learn and demonstrate how Redux works, like creating slices, managing the store and efficient handling of actions and reducers in React",
+        "Created a to-do list application using Redux Toolkit to learn and demonstrate how Redux works, like creating slices, managing the store and efficient handling of actions and reducers in React",
       gitlink:
         "https://github.com/Usman-99/TodoList-Created-Using-Redux-Toolkit",
       dlink: "https://todolistwithreduxtoolkit.netlify.app/",
@@ -61,7 +70,7 @@ const Project = () => {
       img: Project2,
       name: "Lensmart",
       intro:
-        "I build a beginner React user interface project to learn hooks and understand single-page routing",
+        "Built a beginner React user interface project to learn hooks and understand single-page routing",
       gitlink: "https://github.com/Usman-99/Lensmart-reactversion",
       dlink: "https://lensmart99.netlify.app/",
     },
