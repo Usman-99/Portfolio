@@ -16,7 +16,7 @@ const Intro = () => {
               Skilled in React.js, adept at crafting engaging user interfaces
               through innovative design and clean code practices.
             </p>
-            <a href={Resume} target="_blank">
+            <a href={Resume} download="Usman's Resume">
               <button className="text-xl px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                 Download Resume
               </button>
@@ -24,7 +24,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
+          <div className="after:bg-[url('/large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
             <img
               src={Profile}
               className="relative z-10 w-[280px] m-auto sm:w-[600px]"
