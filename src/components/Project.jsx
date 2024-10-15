@@ -1,12 +1,12 @@
-import Project1 from "../assets/capture.webp";
-import Project2 from "../assets/capture1.webp";
-import Project3 from "../assets/capture2.webp";
-import Project4 from "../assets/capture3.webp";
-import Project5 from "../assets/capture4.webp";
-import Project6 from "../assets/capture5.webp";
-import Project7 from "../assets/capture6.webp";
-import Project8 from "../assets/capture7.webp";
-import Project9 from "../assets/capture8.webp";
+import Project1 from "../assets/Capture.webp";
+import Project2 from "../assets/Capture1.webp";
+import Project3 from "../assets/Capture2.webp";
+import Project4 from "../assets/Capture3.webp";
+import Project5 from "../assets/Capture4.webp";
+import Project6 from "../assets/Capture5.webp";
+import Project7 from "../assets/Capture6.webp";
+import Project8 from "../assets/Capture7.webp";
+import Project9 from "../assets/Capture8.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Project = () => {
