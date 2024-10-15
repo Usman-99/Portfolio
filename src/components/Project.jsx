@@ -6,6 +6,7 @@ import Project5 from "../assets/capture4.webp";
 import Project6 from "../assets/capture5.webp";
 import Project7 from "../assets/capture6.webp";
 import Project8 from "../assets/capture7.webp";
+import Project9 from "../assets/capture8.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Project = () => {
@@ -25,6 +26,14 @@ const Project = () => {
         "E-commerce application that uses Redux Toolkit and createAsyncThunk to manage state and handle asynchronous API calls for fetching products",
       gitlink: "https://github.com/Usman-99/CartWithRedux",
       dlink: "https://usmanreduxstore.netlify.app/",
+    },
+    {
+      img: Project9,
+      name: "FoodOrderStore",
+      intro:
+        "A responsive food ordering app built using React.js, Tailwind CSS, and Redux Toolkit, featuring search and filtering functionality for a seamless user experience.",
+      gitlink: "https://github.com/Usman-99/Flavoro-food-filtering-website",
+      dlink: "https://usmanpizzafilterstore.netlify.app/",
     },
     {
       img: Project3,
