@@ -1,12 +1,13 @@
-import React from "react";
-import Project1 from "../assets/capture.png";
-import Project2 from "../assets/capture1.png";
-import Project3 from "../assets/capture2.png";
-import Project4 from "../assets/capture3.png";
-import Project5 from "../assets/capture4.png";
-import Project6 from "../assets/capture5.png";
-import Project7 from "../assets/capture6.png";
-import Project8 from "../assets/capture7.png";
+import Project1 from "../assets/capture.webp";
+import Project2 from "../assets/capture1.webp";
+import Project3 from "../assets/capture2.webp";
+import Project4 from "../assets/capture3.webp";
+import Project5 from "../assets/capture4.webp";
+import Project6 from "../assets/capture5.webp";
+import Project7 from "../assets/capture6.webp";
+import Project8 from "../assets/capture7.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Project = () => {
   const projects = [
     {
@@ -88,7 +89,11 @@ const Project = () => {
               key={index}
               className="border border-gray-500 rounded-md p-5 flex-1"
             >
-              <img src={item.img} className="w-full h-auto" alt={item.name} />
+              <LazyLoadImage
+                src={item.img}
+                className="w-full h-auto"
+                alt={item.name}
+              />
               <h3 className="text-2xl font-semibold mt-8">{item.name}</h3>
               <p className="text-gray-300 text-md mt-2">{item.intro}</p>
 

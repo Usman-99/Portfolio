@@ -1,5 +1,7 @@
-import Profile from "../assets/port.png";
+import Profile from "../assets/port.webp";
 import Resume from "../assets/USMANRESUME.pdf";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Intro = () => {
   return (
     <section>
@@ -25,7 +27,7 @@ const Intro = () => {
         </div>
         <div className="relative">
           <div className="after:bg-[url('/large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
-            <img
+            <LazyLoadImage
               src={Profile}
               className="relative z-10 w-[280px] m-auto sm:w-[600px]"
             />

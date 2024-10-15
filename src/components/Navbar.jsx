@@ -1,5 +1,6 @@
 import React from "react";
-import Navpic from "../assets/Navpic.png";
+import Navpic from "../assets/Navpic.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Navbar = ({ scrolling }) => {
   const navitems = [
@@ -18,12 +19,12 @@ const Navbar = ({ scrolling }) => {
         <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
           <a href="#">
             <div>
-              <img
+              <LazyLoadImage
                 style={{ width: "50px", height: "55px" }}
                 className="h-15 w-10"
                 src={Navpic}
                 alt="Logo"
-              ></img>
+              ></LazyLoadImage>
             </div>
           </a>
           <div>
